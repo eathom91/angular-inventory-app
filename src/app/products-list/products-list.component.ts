@@ -8,7 +8,7 @@ import {Product} from "../product.model";
 })
 export class ProductsListComponent {
   // These will be implemented soon...
-  // TODO
+  // TODO tomorrow Sun 
   @Input() productList: Product[];
 
   @Output() onProductSelected: EventEmitter<Product>;
