@@ -11,6 +11,11 @@ export class ProductsListComponent {
   // TODO tomorrow Sun
   @Input() productList!: Product[];
 
-  @Output() onProductSelected!: EventEmitter<Product>;
+  @Output() onProductSelected: EventEmitter<Product>;
 
+  private currentProduct!: Product;
+
+  constructor() {
+    this.onProductSelected = new EventEmitter();
+  }
 }
