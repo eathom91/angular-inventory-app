@@ -7,7 +7,7 @@ import {Product} from "../product.model";
   templateUrl: './products-list.component.html',
 })
 export class ProductsListComponent {
-
+  // Input / Output
   @Input() productList!: Product[];
 
   @Output() onProductSelected: EventEmitter<Product>;
