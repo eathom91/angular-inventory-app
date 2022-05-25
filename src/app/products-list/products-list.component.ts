@@ -8,6 +8,7 @@ import {Product} from "../product.model";
 })
 export class ProductsListComponent {
   // Input / Output
+  // Test
   @Input() productList!: Product[];
 
   @Output() onProductSelected: EventEmitter<Product>;
