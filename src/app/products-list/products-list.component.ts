@@ -7,9 +7,13 @@ import {Product} from "../product.model";
   templateUrl: './products-list.component.html',
 })
 export class ProductsListComponent {
+<<<<<<< HEAD
   // Inputs / Outputs
   @Input() productList!: Product[];
+=======
+>>>>>>> 4a7a796105da4e9daae53300353e35570f3398dc
 
+  @Input() productList!: Product[];
   @Output() onProductSelected: EventEmitter<Product>;
 
   private currentProduct!: Product;
